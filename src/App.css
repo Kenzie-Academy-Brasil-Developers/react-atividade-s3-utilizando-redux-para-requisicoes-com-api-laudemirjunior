@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #3a9efd;
+}
+
+img {
+  border-radius: 50%;
+  width: 200px;
+}
+
+h3 {
+  color: #f7a400;
+}
+
+.digimon {
+  display: flex;
+  gap: 20px;
+  max-width: 900px;
+  flex-wrap: wrap;
+}
+
+.search {
+  margin: 25px;
+}
+
+input {
+  height: 30px;
+  width: 250px;
+  border: none;
+}
+
+button {
+  height: 30px;
+  background-color: #f7a400;
+  border: none;
+  padding: 5px;
+}
+
+button:hover {
+  background-color: #3a9efd;
+  cursor: pointer;
+}
